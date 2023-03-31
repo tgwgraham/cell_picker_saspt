@@ -17,21 +17,21 @@ Running the code:
   * Copy segment_all.py to the folder containing your snapshots. Setting basefnames =  [""] in the script will process all files in that directory.
   *	Copy cellpicker.m, callCellPicker.m, placeholder.png, sort_and_saspt.ipynb, and traj_sorting.py to your experiment folder
 *	In your Unix command line:
-⦁	Navigate to SMT folder and run tracking on SMT movies:
-conda activate quot_env
-python runTrackingAll.py (this requires file settings.toml)
-⦁	Navigate to snapshots folder, and run StarDist segmentation on snapshot images to give nuclear masks:
-conda activate stardist_env
-python segment_all.py
-⦁	In MATLAB: Navigate to experiment folder. Set basefname and range in script callCellPicker.m, and run the script to select good cells using the cellpicker function.
-⦁	In your Unix command line:
-conda activate stardist_env 
-jupyter-lab
-⦁	Copy and paste the link provided into a browser to run JupyterLab
-⦁	In the Jupyter Lab browser window, open sort_and_saspt.ipynb.
-⦁	Set maskmat to the name of the mat file exported by MATLAB in the previous step
-⦁	Set csvfolder to the name of your SMT data folder containing tracked CSV files
-⦁	Run the first two cells to classify and write out CSVs for all selected cells.
-⦁	Run the 3rd and 4th cells to do SASPT analysis of all trajectories from selected cells. You can change the sample_size variable if desired to increase the maximum number of trajectories analyzed.
+  *	Navigate to SMT folder and run tracking on SMT movies:
+  `conda activate quot_env`
+  `python runTrackingAll.py` (this requires file settings.toml)
+*	Navigate to snapshots folder, and run StarDist segmentation on snapshot images to give nuclear masks:
+  `conda activate stardist_env`
+  `python segment_all.py`
+*	In MATLAB: Navigate to experiment folder. Set basefname and range in script callCellPicker.m, and run the script to select good cells using the cellpicker function.
+*	In your Unix command line:
+  `conda activate stardist_env `
+  `jupyter-lab`
+*	Copy and paste the link provided into a browser to run JupyterLab
+*	In the Jupyter Lab browser window, open sort_and_saspt.ipynb.
+*	Set maskmat to the name of the mat file exported by MATLAB in the previous step
+*	Set csvfolder to the name of your SMT data folder containing tracked CSV files
+*	Run the first two cells to classify and write out CSVs for all selected cells.
+*	Run the 3rd and 4th cells to do SASPT analysis of all trajectories from selected cells. You can change the sample_size variable if desired to increase the maximum number of trajectories analyzed.
 
 
