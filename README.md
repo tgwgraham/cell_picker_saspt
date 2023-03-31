@@ -4,8 +4,8 @@ This is a simple MATLAB GUI for selecting cells of interest in snapshot movies a
 
 Environment setup:
 
-- Create the conda environment quot_env, and install quot following the instructions here: https://github.com/alecheckert/quot
--	Create a second conda environment called stardist_env, and install StarDist, saspt, and jupyter-lab:
+* Create the conda environment quot_env, and install quot following the instructions here: https://github.com/alecheckert/quot
+*	Create a second conda environment called stardist_env, and install StarDist, saspt, and jupyter-lab:
  * `conda create -n stardist_env`
  * `pip install stardist`
  * `pip install saspt`
