@@ -6,10 +6,10 @@ Environment setup:
 
 - Create the conda environment quot_env, and install quot following the instructions here: https://github.com/alecheckert/quot
 -	Create a second conda environment called stardist_env, and install StarDist, saspt, and jupyter-lab:
-* conda create -n stardist_env
-* pip install stardist
-* pip install saspt
-* conda install jupyterlab
+` conda create -n stardist_env
+ pip install stardist
+ pip install saspt
+ conda install jupyterlab`
 
 Running the code:
 ⦁	Copy and scripts and set parameters:
