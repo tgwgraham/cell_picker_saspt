@@ -8,9 +8,11 @@ Environment setup:
 *	Create a second conda environment called stardist_env, and install StarDist, saspt, and jupyter-lab:
 ```
 conda create -n stardist_env
+conda activate stardist_env
+conda install python=3.7
+conda install jupyterlab
 pip install stardist
 pip install saspt
-conda install jupyterlab
 ```
 
 Running the code:
